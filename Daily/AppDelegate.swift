@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         splitViewController.delegate = self
         
         Mixpanel.sharedInstanceWithToken("b5a7fb9e38744e4128b9c9830361319d");
-        ENSession.setSharedSessionDeveloperToken("token", noteStoreUrl: "url")
+        ENSession.setSharedSessionDeveloperToken("S=s163:U=1106ead:E=15a6f8a75da:C=15317d947c8:P=1cd:A=en-devtoken:V=2:H=d28c2d99e63f6496edf0615a8cf8b4f5", noteStoreUrl: "url")
         return true
     }
 

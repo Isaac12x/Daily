@@ -21,6 +21,9 @@
 		EC81FA651C7ED7A600CDA20B /* ENSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC81FA631C7ED7A600CDA20B /* ENSDKResources.bundle */; };
 		EC81FA671C7ED7F500CDA20B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81FA661C7ED7F500CDA20B /* MobileCoreServices.framework */; };
 		EC81FA691C7ED82200CDA20B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81FA681C7ED82200CDA20B /* libxml2.tbd */; };
+		EC81FA6B1C7EEF7300CDA20B /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */; };
+		EC81FA6D1C7EF4F500CDA20B /* EvernoteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */; };
+		EC81FA6F1C7F025C00CDA20B /* EvernoteConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		EC81FA631C7ED7A600CDA20B /* ENSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ENSDKResources.bundle; path = Daily/ENSDKResources.bundle; sourceTree = "<group>"; };
 		EC81FA661C7ED7F500CDA20B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		EC81FA681C7ED82200CDA20B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteClient.swift; sourceTree = "<group>"; };
+		EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +131,12 @@
 			children = (
 				EC81FA381C7EB8A200CDA20B /* AppDelegate.swift */,
 				EC81FA3A1C7EB8A200CDA20B /* MasterViewController.swift */,
+				EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */,
+				EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */,
+				EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */,
+				EC81FA5F1C7ED3F500CDA20B /* APISession.swift */,
 				EC81FA3C1C7EB8A200CDA20B /* DetailViewController.swift */,
 				EC81FA5A1C7EB8D100CDA20B /* SweetAlert.swift */,
-				EC81FA5F1C7ED3F500CDA20B /* APISession.swift */,
 				EC81FA3E1C7EB8A200CDA20B /* Main.storyboard */,
 				EC81FA411C7EB8A200CDA20B /* Assets.xcassets */,
 				EC81FA431C7EB8A200CDA20B /* LaunchScreen.storyboard */,
@@ -301,11 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC81FA6D1C7EF4F500CDA20B /* EvernoteClient.swift in Sources */,
 				EC81FA601C7ED3F500CDA20B /* APISession.swift in Sources */,
 				EC81FA3D1C7EB8A200CDA20B /* DetailViewController.swift in Sources */,
+				EC81FA6B1C7EEF7300CDA20B /* APIConstant.swift in Sources */,
 				EC81FA3B1C7EB8A200CDA20B /* MasterViewController.swift in Sources */,
 				EC81FA391C7EB8A200CDA20B /* AppDelegate.swift in Sources */,
 				EC81FA5B1C7EB8D100CDA20B /* SweetAlert.swift in Sources */,
+				EC81FA6F1C7F025C00CDA20B /* EvernoteConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
