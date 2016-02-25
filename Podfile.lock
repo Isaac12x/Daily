@@ -1,0 +1,15 @@
+PODS:
+  - evernote-cloud-sdk-ios (2.0.5)
+  - Mixpanel (2.9.4):
+    - Mixpanel/Mixpanel (= 2.9.4)
+  - Mixpanel/Mixpanel (2.9.4)
+
+DEPENDENCIES:
+  - evernote-cloud-sdk-ios
+  - Mixpanel
+
+SPEC CHECKSUMS:
+  evernote-cloud-sdk-ios: 048cf5dcdc0c64069192d1336b7e121bc1a77e12
+  Mixpanel: 80d2ca9bb38ae91c1044d738e80fe448377ac89f
+
+COCOAPODS: 0.39.0
