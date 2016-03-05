@@ -4,7 +4,6 @@
  use_frameworks!
 
 target 'Daily' do
-
     pod 'evernote-cloud-sdk-ios'
     pod 'Mixpanel'
     

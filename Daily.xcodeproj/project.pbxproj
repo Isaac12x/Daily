@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B1DDBB6A82F571D5760259D5 /* Pods_Daily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B25348FB398C2A76E0A03 /* Pods_Daily.framework */; };
+		EC24DB171C86545800A7A79F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC24DB161C86545800A7A79F /* libxml2.2.dylib */; };
+		EC24DB1E1C866B7E00A7A79F /* FacebookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24DB1D1C866B7E00A7A79F /* FacebookClient.swift */; };
+		EC24DB201C866B8D00A7A79F /* FacebookConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24DB1F1C866B8D00A7A79F /* FacebookConstants.swift */; };
+		EC24DB221C86773100A7A79F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24DB211C86773100A7A79F /* LoginViewController.swift */; };
+		EC24DB511C86DFDC00A7A79F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC24DB4E1C86DFDC00A7A79F /* FBSDKCoreKit.framework */; };
+		EC24DB521C86DFDC00A7A79F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC24DB4F1C86DFDC00A7A79F /* FBSDKLoginKit.framework */; };
+		EC24DB531C86DFDC00A7A79F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC24DB501C86DFDC00A7A79F /* FBSDKShareKit.framework */; };
 		EC81FA391C7EB8A200CDA20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA381C7EB8A200CDA20B /* AppDelegate.swift */; };
 		EC81FA3B1C7EB8A200CDA20B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA3A1C7EB8A200CDA20B /* MasterViewController.swift */; };
 		EC81FA3D1C7EB8A200CDA20B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA3C1C7EB8A200CDA20B /* DetailViewController.swift */; };
@@ -20,7 +27,6 @@
 		EC81FA641C7ED7A600CDA20B /* ENSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81FA621C7ED7A600CDA20B /* ENSDK.framework */; };
 		EC81FA651C7ED7A600CDA20B /* ENSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC81FA631C7ED7A600CDA20B /* ENSDKResources.bundle */; };
 		EC81FA671C7ED7F500CDA20B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81FA661C7ED7F500CDA20B /* MobileCoreServices.framework */; };
-		EC81FA691C7ED82200CDA20B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC81FA681C7ED82200CDA20B /* libxml2.tbd */; };
 		EC81FA6B1C7EEF7300CDA20B /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */; };
 		EC81FA6D1C7EF4F500CDA20B /* EvernoteClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */; };
 		EC81FA6F1C7F025C00CDA20B /* EvernoteConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */; };
@@ -40,6 +46,13 @@
 		14C30A243E4BD747230E59EE /* Pods-Daily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily/Pods-Daily.release.xcconfig"; sourceTree = "<group>"; };
 		254B25348FB398C2A76E0A03 /* Pods_Daily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CBE4BBFF6C8C55D286A0C7 /* Pods-Daily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily/Pods-Daily.debug.xcconfig"; sourceTree = "<group>"; };
+		EC24DB161C86545800A7A79F /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../libxml2.2.dylib; sourceTree = "<group>"; };
+		EC24DB1D1C866B7E00A7A79F /* FacebookClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookClient.swift; sourceTree = "<group>"; };
+		EC24DB1F1C866B8D00A7A79F /* FacebookConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookConstants.swift; sourceTree = "<group>"; };
+		EC24DB211C86773100A7A79F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC24DB4E1C86DFDC00A7A79F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EC24DB4F1C86DFDC00A7A79F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EC24DB501C86DFDC00A7A79F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		EC81FA351C7EB8A200CDA20B /* Daily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC81FA381C7EB8A200CDA20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC81FA3A1C7EB8A200CDA20B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +70,6 @@
 		EC81FA621C7ED7A600CDA20B /* ENSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ENSDK.framework; path = Daily/ENSDK.framework; sourceTree = "<group>"; };
 		EC81FA631C7ED7A600CDA20B /* ENSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ENSDKResources.bundle; path = Daily/ENSDKResources.bundle; sourceTree = "<group>"; };
 		EC81FA661C7ED7F500CDA20B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		EC81FA681C7ED82200CDA20B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 		EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteClient.swift; sourceTree = "<group>"; };
 		EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteConstants.swift; sourceTree = "<group>"; };
@@ -68,7 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC81FA691C7ED82200CDA20B /* libxml2.tbd in Frameworks */,
+				EC24DB511C86DFDC00A7A79F /* FBSDKCoreKit.framework in Frameworks */,
+				EC24DB171C86545800A7A79F /* libxml2.2.dylib in Frameworks */,
+				EC24DB521C86DFDC00A7A79F /* FBSDKLoginKit.framework in Frameworks */,
+				EC24DB531C86DFDC00A7A79F /* FBSDKShareKit.framework in Frameworks */,
 				EC81FA671C7ED7F500CDA20B /* MobileCoreServices.framework in Frameworks */,
 				EC81FA641C7ED7A600CDA20B /* ENSDK.framework in Frameworks */,
 				B1DDBB6A82F571D5760259D5 /* Pods_Daily.framework in Frameworks */,
@@ -88,10 +103,13 @@
 		37B870945052B3743D070F5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC81FA681C7ED82200CDA20B /* libxml2.tbd */,
-				EC81FA661C7ED7F500CDA20B /* MobileCoreServices.framework */,
+				EC24DB4E1C86DFDC00A7A79F /* FBSDKCoreKit.framework */,
+				EC24DB4F1C86DFDC00A7A79F /* FBSDKLoginKit.framework */,
+				EC24DB501C86DFDC00A7A79F /* FBSDKShareKit.framework */,
 				EC81FA621C7ED7A600CDA20B /* ENSDK.framework */,
 				EC81FA631C7ED7A600CDA20B /* ENSDKResources.bundle */,
+				EC24DB161C86545800A7A79F /* libxml2.2.dylib */,
+				EC81FA661C7ED7F500CDA20B /* MobileCoreServices.framework */,
 				254B25348FB398C2A76E0A03 /* Pods_Daily.framework */,
 			);
 			name = Frameworks;
@@ -104,6 +122,57 @@
 				14C30A243E4BD747230E59EE /* Pods-Daily.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC24DB181C86568900A7A79F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC81FA3A1C7EB8A200CDA20B /* MasterViewController.swift */,
+				EC24DB211C86773100A7A79F /* LoginViewController.swift */,
+				EC81FA3C1C7EB8A200CDA20B /* DetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EC24DB191C86569800A7A79F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC81FA5F1C7ED3F500CDA20B /* APISession.swift */,
+				EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */,
+				EC24DB1A1C8656A200A7A79F /* Client */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EC24DB1A1C8656A200A7A79F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */,
+				EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */,
+				EC24DB1D1C866B7E00A7A79F /* FacebookClient.swift */,
+				EC24DB1F1C866B8D00A7A79F /* FacebookConstants.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		EC24DB1B1C8656C600A7A79F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC81FA3E1C7EB8A200CDA20B /* Main.storyboard */,
+				EC81FA411C7EB8A200CDA20B /* Assets.xcassets */,
+				EC81FA431C7EB8A200CDA20B /* LaunchScreen.storyboard */,
+				EC81FA5A1C7EB8D100CDA20B /* SweetAlert.swift */,
+				EC81FA461C7EB8A200CDA20B /* Info.plist */,
+				EC81FA611C7ED45100CDA20B /* evernote-cloud-sdk-ios-Bridging-Header.h */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		EC24DB1C1C8656E000A7A79F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		EC81FA2C1C7EB8A200CDA20B = {
@@ -130,18 +199,10 @@
 			isa = PBXGroup;
 			children = (
 				EC81FA381C7EB8A200CDA20B /* AppDelegate.swift */,
-				EC81FA3A1C7EB8A200CDA20B /* MasterViewController.swift */,
-				EC81FA6A1C7EEF7300CDA20B /* APIConstant.swift */,
-				EC81FA6C1C7EF4F500CDA20B /* EvernoteClient.swift */,
-				EC81FA6E1C7F025C00CDA20B /* EvernoteConstants.swift */,
-				EC81FA5F1C7ED3F500CDA20B /* APISession.swift */,
-				EC81FA3C1C7EB8A200CDA20B /* DetailViewController.swift */,
-				EC81FA5A1C7EB8D100CDA20B /* SweetAlert.swift */,
-				EC81FA3E1C7EB8A200CDA20B /* Main.storyboard */,
-				EC81FA411C7EB8A200CDA20B /* Assets.xcassets */,
-				EC81FA431C7EB8A200CDA20B /* LaunchScreen.storyboard */,
-				EC81FA461C7EB8A200CDA20B /* Info.plist */,
-				EC81FA611C7ED45100CDA20B /* evernote-cloud-sdk-ios-Bridging-Header.h */,
+				EC24DB191C86569800A7A79F /* Model */,
+				EC24DB1C1C8656E000A7A79F /* View */,
+				EC24DB181C86568900A7A79F /* Controller */,
+				EC24DB1B1C8656C600A7A79F /* Assets */,
 			);
 			path = Daily;
 			sourceTree = "<group>";
@@ -314,10 +375,13 @@
 				EC81FA601C7ED3F500CDA20B /* APISession.swift in Sources */,
 				EC81FA3D1C7EB8A200CDA20B /* DetailViewController.swift in Sources */,
 				EC81FA6B1C7EEF7300CDA20B /* APIConstant.swift in Sources */,
+				EC24DB1E1C866B7E00A7A79F /* FacebookClient.swift in Sources */,
 				EC81FA3B1C7EB8A200CDA20B /* MasterViewController.swift in Sources */,
 				EC81FA391C7EB8A200CDA20B /* AppDelegate.swift in Sources */,
+				EC24DB201C866B8D00A7A79F /* FacebookConstants.swift in Sources */,
 				EC81FA5B1C7EB8D100CDA20B /* SweetAlert.swift in Sources */,
 				EC81FA6F1C7F025C00CDA20B /* EvernoteConstants.swift in Sources */,
+				EC24DB221C86773100A7A79F /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,12 +514,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Daily",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Daily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IncorexEnterprise.Daily;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncorexEnterprise.Daily.isaac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "#import <ENSDK/ENSDK.h>\n";
+				SWIFT_OBJC_BRIDGING_HEADER = "#import <ENSDK/ENSDK.h>\n#import <FBSDKCoreKit/FBSDKCoreKit.h>\n#import <FBSDKLoginKit/FBSDKLoginKit.h>\n";
 			};
 			name = Debug;
 		};
@@ -467,12 +532,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Daily",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Daily/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IncorexEnterprise.Daily;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncorexEnterprise.Daily.isaac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "#import <ENSDK/ENSDK.h>\n";
+				SWIFT_OBJC_BRIDGING_HEADER = "#import <ENSDK/ENSDK.h>\n#import <FBSDKCoreKit/FBSDKCoreKit.h>\n#import <FBSDKLoginKit/FBSDKLoginKit.h>\n";
 			};
 			name = Release;
 		};

@@ -9,6 +9,7 @@
 import UIKit
 import Mixpanel
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
